@@ -1,9 +1,13 @@
 {
   "name": "practice-cli",
+  "bin": {
+    "brayan-cli": "./index.js"
+  },
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
