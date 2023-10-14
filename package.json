@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc -w",
-    "link-cli": "npm unlink --global && chmod -x ./dist/index.js && npm link ./",
+    "link-cli": "(npm unlink --global || true) && chmod -x ./dist/index.js && npm link ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
