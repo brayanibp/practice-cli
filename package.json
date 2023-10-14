@@ -1,19 +1,21 @@
 {
   "name": "practice-cli",
   "bin": {
-    "brayan-cli": "./index.js"
+    "brayan-cli": "./dist/index.js"
   },
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tsc -w",
+    "link-cli": "npm link ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Brayan Bernal <brayanbernal0710@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.8.6",
     "typescript": "^5.2.2"
   }
 }
