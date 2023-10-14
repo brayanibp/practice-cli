@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc -w",
-    "link-cli": "npm link ./",
+    "link-cli": "npm unlink --global && npm link ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,5 +17,8 @@
   "devDependencies": {
     "@types/node": "^20.8.6",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
   }
 }
