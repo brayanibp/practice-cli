@@ -1,5 +1,5 @@
 {
-  "name": "practice-cli",
+  "name": "@brayanibp/practice-cli",
   "bin": {
     "brayan-cli": "./dist/index.js"
   },
